@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Opendart from './components/opendart.component';
+import reportWebVitals from './reportWebVitals';
+import YasamDongusu from './components/yasamdongusu.component';
+import StateHookOrnek from './components/statehook.component';
+
+//sananl bir virtual dom 
+const root = ReactDOM.createRoot(document.getElementById('ibrahim'));
 root.render(
   <React.StrictMode>
-    <App />
+    <StateHookOrnek /> 
   </React.StrictMode>
 );
 
